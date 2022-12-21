@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Contatos - Padilha barber</title>
+		<meta name="viewport" content="width=device-width, initial-escale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="../projeto Rian/favicon/istockphoto-525274279-612x612.jpg">
+		<link rel="stylesheet" type="text/css" href="../projeto Rian/ccs/reset.css">
+		<link rel="stylesheet" type="text/css" href="../projeto Rian/ccs/style.css">
+		
+	</head>
+
+
+	<body>
+
+		<header>
+			
+			<div class="center">
+		
+			<h1> <img src="../projeto Rian/imagens/logo.png" alt="Nossa logo" title="Logo oficial"></h1>
+				
+				<nav>		
+					<ul>
+						<li> <a href="../projeto Rian/index.html"> Home </a></li>
+						<li><a href="../projeto Rian/produtos.html">Produtos</a></li>
+						<li><a href="../projeto Rian/contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			
+			</div>
+		
+		</header>
+
+
+		<main>
+			
+			<form>
+
+				<label for="NomeSobrenome">Nome e Sobrenome</label>
+				<input type="text" id="NomeSobrenome" class="input-padrao" required>
+				
+
+				<label for="EndEmail">E-mail</label>
+				<input type="email" id="EndEmail" class="input-padrao" required placeholder="seuemail@dominio.com">
+				
+
+				<label for="Telefone">Telefone</label>
+				<input type="tel" id="Telefone" class="input-padrao" required placeholder="(DDD) xxxxx-xxxx">
+				
+				
+				<label for="Mensagem">Mensagem</label>
+				<textarea cols="72" rows="10" id="Mensagem" class="input-padrao" placeholder="Nos de seu feedback"></textarea>
+
+				<fieldset>
+					<legend>Como Podemos Entrar em Contato:</legend>
+
+					<label for="radio-Email"><input type="radio" name="contato" value="Email" id="radio-Email">Email</label>
+					
+					<label for="radio-Telefone"><input type="radio" name="contato" value="Telefone" id="radio-Telefone">Telefone</label>
+					
+					<label for="radio-Whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+					
+				</fieldset>
+				<fieldset>
+					<legend>Qual o melhor horário para o seu Atendimento:</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>" Gostaria de receber as novidades da Padilha Barber por E-mail?"</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+
+
+			</form>
+
+
+		</main>
+
+		<footer>
+				<img src="../projeto Rian/imagens/logo_branco.png" alt="nosso logo" title="logo Padilha barber">
+				<p class="copyright">&copy;Copyright Padilha barber - 2021</p>			
+		</footer>
+
+	</body>
+</html>
